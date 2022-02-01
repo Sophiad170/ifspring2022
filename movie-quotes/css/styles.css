@@ -1,33 +1,33 @@
  p {
-    color : blue;
+    color : rgb(6, 66, 66);
     font-size : 22px;
     }
             
 .venkman {
-   color: green;
+   color: rgb(7, 58, 134);
 }
 
 .mayor {
-   color: red;
+   color: rgb(24, 17, 209);
 }
 
 .stantz {
-   color: orange;
+   color: rgb(4, 6, 85);
 
 }
 
 .winston {
-   color: purple;
+   color: rgb(88, 78, 177);
 
 }
 
 .egon {
-   color: fuchsia;
+   color: rgb(50, 26, 158);
 
 }
 
 .staging {
-   color:black;
+   color:rgb(15, 12, 151);
    font-size: 14px;
    font-weight: 500;
    font-style: italic;
