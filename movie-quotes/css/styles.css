@@ -1,0 +1,41 @@
+ p {
+    color : blue;
+    font-size : 22px;
+    }
+            
+.venkman {
+   color: green;
+}
+
+.mayor {
+   color: red;
+}
+
+.stantz {
+   color: orange;
+
+}
+
+.winston {
+   color: purple;
+
+}
+
+.egon {
+   color: fuchsia;
+
+}
+
+.staging {
+   color:black;
+   font-size: 14px;
+   font-weight: 500;
+   font-style: italic;
+
+}
+
+.title {
+   color:black;
+   font-style:italic;
+}
+
