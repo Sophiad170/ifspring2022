@@ -1,0 +1,20 @@
+p {
+    color : rgb(14, 13, 13);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    text-align: center;
+    }
+
+.header {
+    font-style: bold;
+    font-size: 12px;
+}
+
+.chorus {
+    font-weight: bold;
+}
+
+.bennie {
+    border: 3px solid brown;
+    font-weight: bold;
+}
