@@ -1,0 +1,23 @@
+html {
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(61, 6, 61);
+    margin-left: .4em;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 8%;
+    color: rgb(83, 49, 136)
+  }
+
+  section {
+    margin-bottom: 100px
+}
+
+
+h3 {
+    font-size: 18px;
+    color: rgb(142, 63, 173);
+    text-decoration: underline;
+}
