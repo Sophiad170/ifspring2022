@@ -1,0 +1,225 @@
+html {
+    font-family: 'Cormorant', serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(248, 235, 215);
+}
+
+
+header {
+    text-align: center; 
+    background-image: url("../images/MoroccanPrint.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0 80px 0;
+    color: rgb(94, 48, 61);
+}
+
+@media (max-width:500px) {
+    header h2 {
+        font-size: 20px;
+    }
+}
+
+.description {
+    margin-bottom: 70px;
+    color: rgb(94, 48, 61);
+    margin-top: 30px;
+    margin-left: 40px;
+    line-height: 1.5rem;
+}
+
+@media (max-width:400px) {
+    .description {
+        font-size: 14px;
+    }
+}
+
+.description img {
+    float: right;
+    margin: 0 60px 20px 37px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+@media (max-width:400px) {
+    .description img {
+        width: 180px;
+        height: 180px;
+        float: none;
+    }
+}
+
+@media (max-width:300px) {
+    .description img {
+        width: 90px;
+        height: 90px;
+    }
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h4 {
+    font-size: 30px;
+    text-align: center;
+}
+
+@media (max-width:800px) {
+    h4 {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:400px) {
+    h4 {
+        font-size: 14px;
+    }
+}
+
+.ingredients1 ol{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: rgb(94, 48, 61);
+    line-height: 1.5rem;
+
+}
+
+.ingredients1 li {
+    list-style: none; 
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 1rem;
+    padding: 0;
+}
+
+@media (max-width:400px) {
+    .ingredients1 {
+        font-size: 10px;
+    }
+}
+
+.ingredients2 li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.ingredients2 ul {
+    padding-left: 0;
+}
+
+.left {
+    float: left;
+    width: 20%;
+    text-align: center;
+    margin: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    line-height: 1.5rem;
+    margin-left: .5rem;
+    margin-right: 1rem;
+    color: rgb(94, 48, 61);
+    }
+
+    .ingredients2 {
+        background-image: url("../images/MoroccanPrint.jpg");
+        padding-bottom: 50px;
+        padding-top: 5px;
+        margin-top:5px;
+    }
+
+    @media (max-width:800px) {
+        .left {
+            font-size: 14px;
+            width: 100%;
+            }
+        }
+
+    @media (max-width:500px) {
+        .left {
+            font-size: 12px;
+            width: 100%;
+            float: none;
+        }
+    }
+
+
+.right {
+    float: right;
+    width: 70%;
+    line-height: 1.5rem;
+    margin: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 30px;
+    font-size: 18px;
+    color: rgb(94, 48, 61);
+}
+
+.instructions li {
+    margin-bottom: 20px;
+}
+
+@media (max-width:800px) {
+    .right {
+        font-size: 14px;
+        float: none;
+        margin-left: 90px;
+        text-align: center;
+    }
+}
+@media (max-width:500px) {
+    .right {
+        font-size: 12px;
+        float: none;
+        margin-left: 20px;
+        margin-right: 0;
+    }
+}
+
+@media (max-width:300px) {
+    .left {
+        font-size: 11px;
+        float: none;
+        margin-right: 0;
+    }
+}
+
+.left2 img {
+    float: left;
+    margin: 50px 0 0 0;
+    width: 260px;
+    height: 400px;
+    object-fit: cover;
+    padding-top: 25px;
+}
+
+@media (max-width:800px) {
+    .left2 img {
+        width: 250px;
+        height: 300px;
+        float: none;
+    }
+}
+
+@media (max-width:500px) {
+    .left2 img {
+        width: 200px;
+        height: 200px;
+        float: none;
+    } 
+}
+
+@media (max-width:400px) {
+    .left2 img {
+        width: 150px;
+        height: 200px;
+        float: none;
+        } 
+    }
