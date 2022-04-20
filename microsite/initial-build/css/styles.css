@@ -39,6 +39,8 @@ nav#home-nav ul {
     width: 500px;
     height: 350px;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media (max-width:500px) {
